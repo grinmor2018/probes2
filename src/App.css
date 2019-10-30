@@ -1,0 +1,154 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+body {
+  font-family: "Lucida Sans Unicode", "Lucida Grande", Sans-Serif;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: left;
+  font-size: calc(10px + 1vmin);
+  color: white;
+}
+
+h1 { 
+  color: ##61dafb;
+  font-weight: bold;
+  font-size: calc(30px + 2vmin);
+  text-transform: uppercase; 
+  margin-left: 55px;
+  }
+
+h2 { 
+  color: ##61dafb;
+  font-weight: normal;
+  font-size: calc(17px + 2vmin);
+  text-transform: uppercase; 
+  margin-left: 45px;
+  }
+
+table {
+    font-size: calc(9px + 1vmin);
+    margin: 20px;
+    margin-left: 45px;     
+    width: 90%; 
+    text-align: left;    
+    border-collapse: collapse; }
+
+th {          
+    font-weight: normal;     
+    padding: 8px;     
+    background: #b9c9fe;
+    border-top: 4px solid #aabcfe;    
+    border-bottom: 1px solid #fff; 
+    color: #039; }
+
+td {    
+  padding: 8px;     
+  background: #e8edff;     
+  border-bottom: 1px solid #fff;
+  color: #669;    
+  border-top: 1px solid transparent; }
+
+tr:hover td { 
+  background: #d0dafd; 
+  color: #339;
+  font-weight: bold;
+}
+
+.add-form{
+  display: flex;
+  flex-direction: column;
+  margin-left: 45px;
+  font-size: calc(9px + 1vmin);
+  font-weight: normal;
+}
+.rotulo-form{
+     
+}
+.input-form {        
+  padding: 2px;     
+  background: #ffffff;
+  border-top: 4px solid #aabcfe;  
+  border: 2px solid #39c;  
+  border-radius: 2px; 
+  background-color: #e8edff; 
+  color: #669;  
+  width: 50vw;
+}
+.add-btn{
+  font-weight: bold;  
+  padding: 8px;     
+  background: #ffffff;  
+  border: 2px solid #39c;  
+  border-radius: 5px;
+  background-color: #e8edff; 
+  color: #609;
+  width: calc(9px + 10vmin);
+}
+.add-btn:hover{
+  background-color: #d0dafd;
+  color: #339;
+}
+
+.container{
+  padding: 5px;
+  margin: 5px;
+}
+
+.texto-variable{
+  width: 70%;
+}
+.navigator{
+  display: flex;
+  flex-direction: row;
+  margin-left: 45px;
+  font-weight: normal;
+}
+
+.navigator-button{
+  font-size: calc(1px + 2vmin);
+  font-weight: bold;
+  padding: 1px;
+  border: 2px solid #39c;  
+  background: #ffffff;
+  background-color: #e8edff;
+  color: #609;
+}
+.navigator-button:hover{
+  background-color: #d0dafd;
+  color: #339;
+  padding: 6px;
+}
